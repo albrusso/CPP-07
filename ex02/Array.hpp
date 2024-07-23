@@ -6,7 +6,7 @@
 /*   By: albrusso <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/22 23:35:48 by albrusso          #+#    #+#             */
-/*   Updated: 2024/07/23 00:00:45 by albrusso         ###   ########.fr       */
+/*   Updated: 2024/07/23 19:11:00 by albrusso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,5 +31,7 @@ class Array
 		T &operator[](int index);
 		unsigned int size(void);
 };
+
+#include "Array.tpp"
 
 #endif
