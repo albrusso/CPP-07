@@ -6,7 +6,7 @@
 /*   By: albrusso <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/22 20:29:26 by albrusso          #+#    #+#             */
-/*   Updated: 2024/07/22 20:34:53 by albrusso         ###   ########.fr       */
+/*   Updated: 2024/07/24 15:06:55 by albrusso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,9 @@
 template <typename T>
 void swap(T& a, T& b)
 {
-    T c = a;
-    a = b;
-    b = c;
+	T c = a;
+	a = b;
+	b = c;
 }
 
 template <typename T>

@@ -6,7 +6,7 @@
 /*   By: albrusso <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/22 20:35:04 by albrusso          #+#    #+#             */
-/*   Updated: 2024/07/22 20:37:41 by albrusso         ###   ########.fr       */
+/*   Updated: 2024/07/24 15:07:02 by albrusso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@ int main(void)
 {
 	int a = 2;
 	int b = 3;
+
 	::swap( a, b );
 	std::cout << "a = " << a << ", b = " << b << std::endl;
 	std::cout << "min( a, b ) = " << ::min( a, b ) << std::endl;
